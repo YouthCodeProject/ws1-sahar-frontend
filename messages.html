@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messages - Sahar</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a title="Back to the future" class="navbar-brand" href="index.html">
+                    <img width="20" src="img/favicon.ico" />
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="register.html" title="Create an account and give your friend a message!">Register</a></li>
+                    <li><a href="login.html" title="Already have one?">Log in</a></li>
+                    <li><a href="manage.html" title="Wanna fix something?">Manage</a></li>
+                    <li><a class="active" href="messages.html" title="Waiting for something?">Messages</a></li>
+                    <li><a href="send.html" title="Say something nice!">Send</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        <h2>Messages</h2>
+        <hr />
+        <div>
+            <ul class="nav nav-pills nav-justified">
+                <li class="active"><a href="#received" data-toggle="pill">Received</a></li>
+                <li><a href="#favorite" data-toggle="pill">Favorite</a></li>
+                <li><a href="#send" data-toggle="pill">Sent</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="received" class="tab-pane active">
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Date
+                        </div>
+                        <div class="panel-body">
+                            <p>Content</p>
+                        </div>
+                        <div class="panel-footer">
+                            <button title="Love something?" class="btn btn-danger" data-msg-id="@Model.MessageId">
+                                <span class="glyphicon glyphicon-heart" ></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="favorite" class="tab-pane">
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Date
+                        </div>
+                        <div class="panel-body">
+                            <p>Content</p>
+                        </div>
+                        <div class="panel-footer">
+                            <button title="Love something?" class="btn btn-danger" data-msg-id="@Model.MessageId">
+                                <span class="glyphicon glyphicon-heart" ></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="send" class="tab-pane">
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Date
+                        </div>
+                        <div class="panel-body">
+                            <p>Content</p>
+                        </div>
+                        <div class="panel-footer">
+                            <button title="Love something?" class="btn btn-danger" data-msg-id="@Model.MessageId">
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; 2017 - A Sarahah-based demo by YouthCode Project</p>
+        </footer>
+    </div>
+
+    <script src="jquery/jquery-3.2.1.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/site.js"></script>
+</body>
+
+</html>

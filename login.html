@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Sahar</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a title="Back to the future" class="navbar-brand" href="index.html">
+                    <img width="20" src="img/favicon.ico" />
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="register.html" title="Create an account and give your friend a message!">Register</a></li>
+                    <li><a class="active" href="login.html" title="Already have one?">Log in</a></li>
+                    <li><a href="manage.html" title="Wanna fix something?">Manage</a></li>
+                    <li><a href="messages.html" title="Waiting for something?">Messages</a></li>
+                    <li><a href="send.html" title="Say something nice!">Send</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        <h2>Log in</h2>
+        <div class="row">
+            <div class="col-md-8">
+                <section>
+                    <form class="form-horizontal">
+                        <h4>Use a local account to log in.</h4>
+                        <hr />
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Username</label>
+                            <div class="col-md-10">
+                                <input class="form-control" type="text" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Password</label>
+                            <div class="col-md-10">
+                                <input class="form-control" type="password" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <div class="checkbox">
+                                    <label for="RememberMe">
+                                            <input id="RememberMe" type="checkbox" value="true" />
+                                            Remember me?
+                                        </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <button title="Press it dude!" type="submit" class="btn btn-default">Log in</button>
+                            </div>
+                        </div>
+                        <p>
+                            <a title="Why don't you just register one before?" href="register.html">New to this? Register one!</a>
+                        </p>
+                </section>
+            </div>
+        </div>
+
+        <hr />
+        <footer>
+            <p>&copy; 2017 - A Sarahah-based demo by YouthCode Project</p>
+        </footer>
+    </div>
+
+    <script src="jquery/jquery-3.2.1.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/site.js"></script>
+</body>
+
+</html>
