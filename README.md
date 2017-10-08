@@ -1,5 +1,5 @@
 # Workshop 1: Discovering Sahar - Part 1
-### Took place on October 7th, 2017
+### Took place on Saturday, October 7th, 2017
 
 This repository contains the code for the workshop. Totally written in HTML, CSS and JavaScript.
 
